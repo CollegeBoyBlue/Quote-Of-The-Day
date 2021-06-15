@@ -1,0 +1,53 @@
+const quotes = [
+    'Act as if what you do makes a difference. It does.', 
+    'Success is not final, failure is not fatal: it is the courage to continue that counts.', 
+    'Believe you can and you are halfway there.', 
+    'The same boiling water that softens the potato hardens the egg. It’s what you’re made of. Not the circumstances.',
+    'You can either experience the pain of discipline or the pain of regret. The choice is yours.',
+    'People who wonder if the glass is half empty or full miss the point. The glass is refillable.',
+    'We are what we repeatedly do. Excellence, then, is not an act, but a habit.',
+    'If you hear a voice within you say "you cannot paint," then by all means paint and that voice will be silenced.',
+    'It’s not the load that breaks you down, it’s the way you carry it.',
+    'If you hire people just because they can do a job, they’ll work for your money. But if you hire people who believe what you believe, they’ll work for you with blood and sweat and tears.',
+    'The hard days are what make you stronger.',
+    'If you believe it’ll work out, you’ll see opportunities. If you don’t believe it’ll work out, you’ll see obstacles.',
+    'Work hard in silence, let your success be the noise.',
+    'Hard work beats talent when talent doesn’t work hard.',
+    'The best way to appreciate your job is to imagine yourself without one.',
+    'Unsuccessful people make their decisions based on their current situations. Successful people make their decisions based on where they want to be.',
+    'Never give up on a dream just because of the time it will take to accomplish it. The time will pass anyway.',
+    'The big secret in life is that there is no secret. Whatever your goal, you can get there if you’re willing to work.',
+    'If you cannot do great things, do small things in a great way.',
+    'Nothing will work unless you do.',
+    'Don’t limit your challenges. Challenge your limits.',
+    'Whenever you find yourself doubting how far you can go, just remember how far you have come.',
+    'Don’t quit yet, the worst moments are usually followed by the most beautiful silver linings. You have to stay strong, remember to keep your head up and remain hopeful.',
+    'Start where you are. Use what you have. Do what you can.',
+    'H.O.P.E. = Hold On. Pain Ends',
+    'Success is no accident. It is hard work, perseverance, learning, studying, sacrifice and most of all, love of what you are doing or learning to do.',
+    'Would you like me to give you a formula for success? It’s quite simple, really: Double your rate of failure. You are thinking of failure as the enemy of success. But it isn’t at all. You can be discouraged by failure or you can learn from it, so go ahead and make mistakes. Make all you can. Because remember that’s where you will find success.',
+    'To be a champion, I think you have to see the big picture. It’s not about winning and losing; it’s about every day hard work and about thriving on a challenge. It’s about embracing the pain that you’ll experience at the end of a race and not being afraid. I think people think too hard and get afraid of a certain challenge.',
+    'Don’t dream about success. Get out there and work for it.',
+    'You can cry, scream, and bang your head in frustration but keep pushing forward. It’s worth it.',
+    'I never lose. Either I win or learn.',
+    'Never regret anything that made you smile.',
+    'Today is your opportunity to build the tomorrow you want.',
+    'Focus on being productive instead of busy.',
+    'Be happy with what you have while working for what you want',
+    'Sunshine all the time makes a desert.',
+    'You don’t need to see the whole staircase, just take the first step.',
+    'Don’t Quit',
+    'If you don’t get out of the box you’ve been raised in, you won’t understand how much bigger the world is.',
+    'I can and I will. Watch me.',
+    'A walk to a nearby park may give you more energy and inspiration in life than spending two hours in front of a screen.',
+    'Try not to become a man of success, but rather become a man of value.',
+    'The question isn’t who is going to let me; it’s who is going to stop me.',
+    'It’s the possibility of having a dream come true that makes life interesting.',
+    'Darkness cannot drive out darkness: only light can do that. Hate cannot drive out hate: only love can do that.'
+];
+const randomIndex = Math.round(Math.random()*quotes.length);
+const getQuote = () => {
+    let quote = document.getElementById("quoteDisplay").innerHTML = quotes[randomIndex];
+    // return quote;
+}
+
